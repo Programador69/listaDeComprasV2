@@ -1,0 +1,116 @@
+body {
+	font-family: sans-serif;
+	background: linear-gradient(#fff, #ccc, #076585);
+	background-repeat: no-repeat;
+}
+
+h1, h2 {
+	text-align: center;
+	margin: 30px;
+}
+
+.formulario {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.formulario input, .formulario button {
+	margin: 10px;
+	padding: 5px;
+}
+
+.formulario input {
+	width: 300px;
+}
+
+.formulario button {
+	width: 100px;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:12px;
+	box-shadow: 0px 10px 17px -4px #276873;
+}
+
+.formulario button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+.resultados {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.resultados div {
+	margin: 10px 0px;
+	display: flex;
+	width: 90vw;
+	justify-content: space-around;
+}
+
+.resultados div p {
+	padding-top: 4px;
+	text-align: center;
+}
+
+.check[type=checkbox] {
+  transform: scale(1.5);
+}
+
+.resultados div button {
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.editar {
+	background: #bbb;
+}
+
+.editar:hover {
+	background: #eef;
+}
+
+.guardar {
+	background: #40CFFF;
+}
+
+.eliminar {
+	background-color: #F0394D;
+}
+
+.eliminar:hover {
+	background: #F03;
+}
+
+.total {
+	text-align: right;
+	margin: 20px 25px 20px 0px;
+}
+
+.total::before {
+	content: "Total: ";
+}
+
+.pie {
+	position: relative;
+	bottom: 0;
+	margin: 20px;
+}
+
+.pie h4, .pie p {
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+}
+
+.links a {
+	color: #000;
+	margin: 10px 20px;
+}
